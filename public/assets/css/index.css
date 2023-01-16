@@ -1,0 +1,17 @@
+body{
+    padding:O;
+    margin:0;
+    background-color: #f8f8fa;
+}
+
+.bg-green{
+    background-color: green !important;
+}
+
+.bg-blue{
+    background-color: #051e3e !important;
+}
+
+.error-message{
+    color: red;
+}
