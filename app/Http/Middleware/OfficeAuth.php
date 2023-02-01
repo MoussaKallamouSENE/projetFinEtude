@@ -20,7 +20,7 @@ class OfficeAuth
         if(!(Auth::check() && Auth::user()->isAdmin)){
 
             return redirect()->route('office-login')->withErrors([
-                'login-error' => 'Route pas autorisée'
+                'login-error' => 'Route pas autorisée !!!!!!'
             ]);
         }
 

@@ -12,7 +12,7 @@
     <div class="main-auth">
         <div class="main-auth-box">
             <div class="auth-box-title">
-                <h4>{{ $authTitle ?? 'login form' }}</h4>
+                <h4>{{ $authTitle ?? 'Connexion' }}</h4>
             </div>
 
             <div class="auth-box-content">
@@ -20,7 +20,7 @@
             </div>
 
             <div class="auth-box-end">
-                Slogan
+                Veillez-vous connecté sur RestoSAF 
             </div>
             
         </div>

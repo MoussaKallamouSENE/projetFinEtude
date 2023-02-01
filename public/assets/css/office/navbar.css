@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: flex-end;
     padding: 0px 50px;
-    background-color: #fff;
+    background-color: #0081C9;
 }
 
 .navbar-user-avatar{
@@ -16,6 +16,7 @@
 
 .navbar-user-name{
     margin-right: 15px;
+    color: #fff;
 }
 
 .logout-form {
@@ -24,9 +25,9 @@
 
 .logout-form input {
     cursor: pointer;
-    background-color: #051e3e;
-    color: #fff;
+    background-color: #fff;
+    color: #0081C9;
     border-radius: 5px;
     padding: 5px 15px;
-    border: 1px solid #051e3e;
+    border: 1px solid #fff;
 }

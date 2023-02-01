@@ -1,0 +1,155 @@
+.page {
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.page-header {
+    width: calc(90% - 20px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+
+.page-title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.add-redirector {
+    text-decoration: none;
+    background-color: #0081C9;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.table-container {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: #F4F9F4;
+}
+
+td, th {
+    padding: 10px 5px;
+    text-align: left;
+}
+
+td.actions {
+    text-align: center;
+}
+
+td.actions div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+td.actions div button{
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+td.actions div a {
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+th {
+    background-color: #0081C9;
+    color: white;
+    align-self: center;
+}
+
+th:first-child {
+    border-top-left-radius: 15px;
+}
+
+th:last-child {
+    border-top-right-radius: 15px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+.pagination-side {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-side nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-side nav a {
+    text-decoration: none;
+    color: #051e3e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pagination-side nav span {
+    color: #868484;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.register-form-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box input.submit{
+    width: 100%;
+    background-color: #0c66db;
+    color: white;
+}
+

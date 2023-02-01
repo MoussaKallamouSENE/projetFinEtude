@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="{{ asset('assets/css/office/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/office/navbar.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/office/sidebar.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/fontAwesome/css/all.min.css') }}">
+    <script src="{{ asset('assets/fontAwesome/js/all.min.js') }}"></script>
     @stack('styles')
     <title>RestoSAF - {{ $pageTitle ?? 'office' }}</title>
 </head>
 <body>
     <div class="main">
-
+        
         <div class="main-sidebar">
-            <x-office.sidebar></x-office.sidebar>
+            <x-office.sidebar :menu=$menuLayout></x-office.sidebar>
         </div>
 
         <div class="main-principal">
+        
             <div class="main-navbar">
                 <x-office.navbar></x-office.navbar>
             </div>

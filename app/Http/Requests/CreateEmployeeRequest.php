@@ -28,7 +28,7 @@ class CreateEmployeeRequest extends FormRequest
             "name"=>['required', 'string', 'min:3', 'max:30'],
             'email'=>['required', 'email' , 'unique:users'],
             'phone'=>['required', 'unique:users'],
-            'role' => ['required']
+            // 'label' => ['required']
         ];
     }
 }

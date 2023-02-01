@@ -14,6 +14,7 @@ class DashboardController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('office.dashboard');
+        $menu = 'dashboard';
+        return view('office.dashboard', compact('menu'));
     }
 }

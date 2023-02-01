@@ -6,6 +6,7 @@ body{
 
 .bg-green{
     background-color: green !important;
+    color: #fff;
 }
 
 .bg-blue{
@@ -14,4 +15,14 @@ body{
 
 .error-message{
     color: red;
+}
+
+.bg-red {
+    background-color: red !important;
+    color: #fff;
+}
+
+.bg-yellow {
+    background-color: #FFC93C !important;
+    color: #000;
 }
